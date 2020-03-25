@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+#Main {
+  display: flex;
+  margin: 0px auto;
+  padding: 0px 150px 0px 150px;
+}
+
+td {
+  height: 80px;
+}
+
+tr {
+  width: 1140px;
+}
+
+input {
+  height: 24px;
+  width: 24px;
+}
+
+input :checked {
+  background: #0ad1bd;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+input :active {
+  background: #0ad1bd;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.col1 {
+  width: 95px;
+  text-align: center;
+}
+.col2 {
+  width: 336px;
+  text-align: left;
+}
+.col3 {
+  width: 200px;
+  text-align: right;
+}
+.col4 {
+  width: 200px;
+  text-align: right;
+}
+.col5 {
+  width: 200px;
+  text-align: right;
+}
