@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: radial-gradient(gray, black);
+}
+
+form {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: lindsey;
+  font-weight: bold;
+}
+
+fieldset {
+  display: flex;
+  border: none;
+  width: 450px;
+  margin: 0px auto;
+  height: -webkit-fill-available;
+  background-image: linear-gradient(rgba(24, 24, 24, 0.7), white, rgb(24, 24, 24, 0.7));
+  text-align: left;
+  padding: 30px 50px 0px 50px;
+}
+
+.entry_div {
+  margin: 10px 0px 10px 0px;
+}
+
+#phoneN {
+  height: 80px;
+}
+
+#lang {
+  height: 80px;
+}
+
+.entry {
+  float: right;
+}
+
+.race {
+  display: inline-flex;
+  float: right;
+  flex-direction: column;
+}
+
+#ethnicity {
+  height: 90px;
+}
+
+.entry_div .race {
+  height: 90px;
+}
+
+button {
+  margin: 0px auto;
+}

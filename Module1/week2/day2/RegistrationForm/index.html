@@ -8,56 +8,59 @@
   </head>
   <body>
     <form action="#">
-      <label for="first_name">First name</label>
-      <input type="text" name="first_name" id="first_name" required />
-      <label for="last_name">Last name</label>
-      <input type="text" name="last_name" id="last_name" required />
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required />
-      <label for="zip_code">Zip code</label>
-      <input type="text" name="zip_code" id="zip_code" placeholder="123456" required />
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" required />
-      <label for="practicing_status">Practicing status</label>
-      <select name="practicing_status" id="practicing_status" required>
-        <option value="0">Practicing Lawyer</option>
-        <option value="1">Non Practicing Lawyer</option>
-        <option value="2">Retired Lawyer</option>
-      </select>
-      <label for="legal_expertise">Legal expertise</label>
-      <select name="legal_expertise" id="legal_expertise" selected>
-        <option value="0">Antitrust</option>
-        <option value="1">Civil Rights</option>
-        <option value="2">Immigration</option>
-        <option value="3">Memes</option>
-        <option value="4">Gaming</option>
-        <option value="5">Pretending to work</option>
-        <option value="6" selected>Other</option>
-      </select>
-      <label for="years_of_experience">Years of experience</label>
-      <input type="number" id="years_of_experience" min="0" max="60" required />
-      <label for="languages">Languages</label>
-      <select name="languages" id="languages" multiple>
-        <option value="Spanish">Spanish - es</option>
-        <option value="English">English - en</option>
-        <option value="Dothraki">Dothraki - do</option>
-        <option value="Kryptonese">Kryptonese - ky</option>
-        <option value="Klingon">Klingon - kl</option>
-        <option value="Vulcan">Vulcan - vu</option>
-        <option value="Alienese">Alienese - ali</option>
-        <option value="Elvish">Elvish - el</option>
-      </select>
-      <label for="phone_number">Phone number</label>
-      <input type="text" name="phone_number" id="phone_number" placeholder="#######" maxlength="9" />
-      <label for="ethnicity">Ethnicity</label>
-      <label for="Earthling">Earthling</label>
-      <input type="radio" name="Ethnicity" id="Earthling" value="Earthling" />
-      <label for="Martian">Martian</label>
-      <input type="radio" name="Ethnicity" id="Martian" value="Martian" />
-      <label for="Asgardian">Asgardian</label>
-      <input type="radio" name="Ethnicity" id="Asgardian" value="Asgardian" />
-      <input type="checkbox" name="terms_of_use" id="terms_of_use" />
-      <label for="terms_of_use">I swear that I totally read the terms of use</label>
+      <fieldset>
+        <label for="first_name">First name</label>
+        <input type="text" name="first_name" id="first_name" required />
+        <label for="last_name">Last name</label>
+        <input type="text" name="last_name" id="last_name" required />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="zip_code">Zip code</label>
+        <input type="text" name="zip_code" id="zip_code" placeholder="123456" required />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
+        <label for="practicing_status">Practicing status</label>
+        <select name="practicing_status" id="practicing_status" required>
+          <option value="0">Practicing Lawyer</option>
+          <option value="1">Non Practicing Lawyer</option>
+          <option value="2">Retired Lawyer</option>
+        </select>
+        <label for="legal_expertise">Legal expertise</label>
+        <select name="legal_expertise" id="legal_expertise" selected>
+          <option value="0">Antitrust</option>
+          <option value="1">Civil Rights</option>
+          <option value="2">Immigration</option>
+          <option value="3">Memes</option>
+          <option value="4">Gaming</option>
+          <option value="5">Pretending to work</option>
+          <option value="6" selected>Other</option>
+        </select>
+        <label for="years_of_experience">Years of experience</label>
+        <input type="number" id="years_of_experience" min="0" max="60" required />
+        <label for="languages">Languages</label>
+        <select name="languages" id="languages" multiple>
+          <option value="Spanish">Spanish - es</option>
+          <option value="English">English - en</option>
+          <option value="Dothraki">Dothraki - do</option>
+          <option value="Kryptonese">Kryptonese - ky</option>
+          <option value="Klingon">Klingon - kl</option>
+          <option value="Vulcan">Vulcan - vu</option>
+          <option value="Alienese">Alienese - ali</option>
+          <option value="Elvish">Elvish - el</option>
+        </select>
+        <label for="phone_number">Phone number</label>
+        <input type="text" name="phone_number" id="phone_number" placeholder="#######" maxlength="9" />
+        <label for="ethnicity">Ethnicity</label>
+        <label for="Earthling">Earthling</label>
+        <input type="radio" name="Ethnicity" id="Earthling" value="Earthling" />
+        <label for="Martian">Martian</label>
+        <input type="radio" name="Ethnicity" id="Martian" value="Martian" />
+        <label for="Asgardian">Asgardian</label>
+        <input type="radio" name="Ethnicity" id="Asgardian" value="Asgardian" />
+        <input type="checkbox" name="terms_of_use" id="terms_of_use" />
+        <label for="terms_of_use">I swear that I totally read the terms of use</label>
+        <input type="submit" value="Submit" />
+      </fieldset>
     </form>
   </body>
 </html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <title>website</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <div class="entry_div">
+          <label for="first_name">First name</label>
+          <input class="entry" type="text" name="first_name" id="first_name" required />
+        </div>
+        <div class="entry_div">
+          <label for="last_name">Last name</label>
+          <input class="entry" type="text" name="last_name" id="last_name" required />
+        </div>
+        <div class="entry_div">
+          <label for="email">Email</label> <input class="entry" type="email" name="email" id="email" required />
+        </div>
+        <div class="entry_div">
+          <label for="zip_code">Zip code</label>
+          <input class="entry" type="text" name="zip_code" id="zip_code" placeholder="123456" required />
+        </div>
+        <div class="entry_div">
+          <label for="password">Password</label>
+          <input class="entry" type="password" name="password" id="password" required />
+        </div>
+        <div class="entry_div">
+          <label for="practicing_status">Practicing status</label>
+          <div class="entry">
+            <select name="practicing_status" id="practicing_status" required>
+              <option value="0">Practicing Lawyer</option>
+              <option value="1">Non Practicing Lawyer</option>
+              <option value="2">Retired Lawyer</option></select
+            >
+          </div>
+        </div>
+
+        <div class="entry_div">
+          <label for="legal_expertise">Legal expertise</label>
+          <select name="legal_expertise" id="legal_expertise" class="entry" selected>
+            <option value="0">Antitrust</option>
+            <option value="1">Civil Rights</option>
+            <option value="2">Immigration</option>
+            <option value="3">Memes</option>
+            <option value="4">Gaming</option>
+            <option value="5">Pretending to work</option>
+            <option value="6" selected>Other</option>
+          </select>
+        </div>
+        <div class="entry_div">
+          <label for="years_of_experience">Years of experience</label>
+          <input class="entry" type="number" id="years_of_experience" min="0" max="60" required />
+        </div>
+        <div id="lang" class="entry_div">
+          <label for="languages">Languages</label>
+          <select name="languages" id="languages" class="entry" multiple>
+            <option value="Spanish">Spanish - es</option>
+            <option value="English">English - en</option>
+            <option value="Dothraki">Dothraki - do</option>
+            <option value="Kryptonese">Kryptonese - ky</option>
+            <option value="Klingon">Klingon - kl</option>
+            <option value="Vulcan">Vulcan - vu</option>
+            <option value="Alienese">Alienese - ali</option>
+            <option value="Elvish">Elvish - el</option>
+          </select>
+        </div>
+        <div class="entry_div">
+          <label for="phone_number">Phone number</label>
+          <input
+            class="entry"
+            type="text"
+            name="phone_number"
+            id="phone_number"
+            placeholder="#######"
+            maxlength="9"
+            class="entry"
+          />
+        </div>
+        <div id="ethnicity" class="entry_div">
+          <label for="ethnicity">Ethnicity</label>
+          <div class="race">
+            <div id="radiogroup">
+              <label for="Earthling">Earthling</label>
+              <input class="entry" type="radio" name="Ethnicity" id="Earthling" value="Earthling" />
+            </div>
+            <div>
+              <label for="Martian">Martian</label>
+              <input class="entry" type="radio" name="Ethnicity" id="Martian" value="Martian" />
+            </div>
+            <div>
+              <label for="Asgardian">Asgardian</label>
+              <input class="entry" type="radio" name="Ethnicity" id="Asgardian" value="Asgardian" />
+            </div>
+          </div>
+        </div>
+        <div class="entry_div">
+          <input class="entry" type="checkbox" name="terms_of_use" id="terms_of_use" />
+          <label for="terms_of_use">I swear that I totally read the terms of use</label>
+        </div>
+
+        <button id="submit">submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
