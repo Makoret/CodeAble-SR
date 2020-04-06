@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Overpass;
+}
+/*General*/
+
+.text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7a7a7a;
+}
+
+/*main elements*/
+#div_main {
+  height: -webkit-fill-available;
+  padding: 5vw 18vw 0vw 11vw;
+  position: relative;
+}
+
+#main_title {
+  height: 144px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #000000;
+}
+
+#div_about {
+  width: 290px;
+  height: 250px;
+  float: left;
+  position: relative;
+}
+
+#div_about p {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 31px;
+  color: #666666;
+}
+
+#div_attributes {
+  height: fit-content;
+  float: right;
+  display: grid;
+  grid-gap: 5px;
+  grid-row-gap: 60px;
+  grid-template-columns: auto auto;
+  position: relative;
+  column-gap: 6vw;
+}
+
+.grid-item {
+  width: 265px;
+}
+
+.grid-item h4 {
+  margin-top: 8px;
+  height: 48px;
+}
+
+.grid-item h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+/*feature elements*/
+#div_features {
+  height: -webkit-fill-available;
+  padding: 6vw 12vw 0vw 11vw;
+  position: relative;
+}
+
+#image {
+  float: left;
+  height: 34vw;
+  width: 41vw;
+}
+
+#image img {
+  height: 100%;
+  width: 100%;
+}
+
+#feat_info {
+  float: right;
+  margin-top: 50px;
+}
+
+.features {
+  width: 30vw;
+  height: 7vw;
+  margin-top: 50px;
+}
+
+.features h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.features div {
+  float: right;
+  width: 25.5vw;
+}
+
+.features img {
+  float: left;
+  margin-top: -15px;
+}

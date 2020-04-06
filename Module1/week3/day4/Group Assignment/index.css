@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  position: relative;
+}
+
+.load_bar {
+  background-color: aqua;
+  width: 200px;
+  height: 50px;
+}
+
+.bar1 {
+  border: 10px black solid;
+  border-radius: 10px;
+  position: absolute;
+}
+.bar2 {
+  position: absolute;
+  border: 10px gray solid;
+  border-radius: 10px;
+}
